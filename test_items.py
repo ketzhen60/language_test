@@ -10,4 +10,4 @@ def check_element_presence(browser, elem):
 
 def test_add_cart(browser):
     browser.get("http://selenium1py.pythonanywhere.com/catalogue/coders-at-work_207/")
-    assert check_element_presence(browser, ".btn-add-to-baske5t"), "Кнопка не найдена"
+    assert check_element_presence(browser, ".btn-add-to-basket"), "Кнопка не найдена"
